@@ -1,0 +1,117 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: "Poppins", serif;
+
+}
+nav{
+    height: 22px;
+    text-align: right;
+    justify-content: center;
+    align-items: center;
+}
+li{
+    list-style: none;
+    
+}
+nav li a{
+color: white;
+font-size: 18px;
+font-weight: 800;
+word-spacing: 2px;
+text-decoration: none;
+
+}
+nav li a span{
+    margin-right: 5px;
+}
+body{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.cantainer{
+    width: 100%;
+    height: 86vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+}
+.cantainer h1 {
+    font-size: 2rem;
+    color: rgb(233, 185, 66);
+}
+#head-1{
+    color: rgb(131, 87, 235);
+    font-size: 20px;
+
+}
+.cantainer input{
+    padding: 13px 17px ;
+    font-size: 16px;
+    margin-top: 1vh;
+    border: solid 1px ;
+    transition: all 0.3s ease;
+    outline: none;
+    background-color: black;
+    border-radius: 10px;
+    color: white;
+    border: none;
+    border-bottom: solid 0.1px;
+
+
+}
+.cantainer button {
+    margin-left: 5px;
+    height: 30px;
+    width: 20vh;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    background-color: rgb(84, 84, 177);
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    border: none;
+    transition: all 0.3s ease-in;
+}
+.cantainer button:hover{
+    background-color: rgb(166, 173, 55);
+    color: black;
+}
+.cantainer p{
+    font-size: 20px;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+table{
+    width: fit-content;
+    height: fit-content;
+    font-size: 20px;
+}
+
+td, th {
+text-align: left;
+display: grid;
+padding: 3px ;
+grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+footer {
+font-size: 20px;
+text-align: center;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+#logo-name{
+    color: goldenrod;
+    font-size: 1.59rem;;
+    font-weight: 700;
+}
+footer span {
+    font-size: 1.59rem;;
+
+}
